@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+   <link
+   href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+   rel="stylesheet"
+/>
+   <link rel="stylesheet" href="style.css">
+   <title>Responsive Website</title>
+</head>
+<body>
+   <div class="main">
+       <div class="nav v-class-resp">
+           <h1 class="logo">LOGO</h1>
+           <div class="nav-part2 v-class-resp">
+          
+               <h2 >About </h2>
+               <h2>Contact </h2>
+               <h2 >Services </h2>
+               <h2>Blog </h2>
+               <h2 >Account </h2>
+             <div class="hamburger">
+               <div class="line"></div>
+               <div class="line"></div>
+               <div class="line"></div>
+             </div>
+               <!-- <i   id="navbar-icon"class="ri-menu-3-line"></i> -->
+           </div>
+           
+       </div>
+
+       <!-- Content Section  -->
+        <div class="content">
+           <div class="left">
+                <h2>
+                   Learn from the <span>Coolest</span> platform in the Pakistan
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, illum est officiis sapiente ut, assumenda ipsum eligendi, accusantium blanditiis consequatur atque eius. Distinctio vero optio aspernatur aliquid esse sapiente! Harum</p>
+                <button class="btn">Explore Now </button>
+
+           </div>
+           <div class="right">
+           <img  id="img1" src="./assets/code-typing-concept-illustration_114360-4296.avif"/>
+           
+           </div>
+
+        </div>
+
+
+
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>

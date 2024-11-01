@@ -35,10 +35,21 @@ html, body{
     margin-right:1vw
 }
 
-h1{
+.logo{
     color:black;
-    padding:3vw;
+    padding:5vw;
     font-weight: 600;
+}
+
+.logo:hover{
+    font-size:5vw;
+    font-weight:900;
+    transition-duration: 2s ;
+    
+}
+
+.logo:active{
+    color:aqua;
 }
 
 .nav i {
@@ -60,4 +71,191 @@ h1{
 }
 
 
+/* content section  */
+
+.content{
+    height:calc(100% - 100px);
+    width:100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.left{
+    width :50%;
+    height:100%;
+    background-color: rgb(132, 123, 140);
+    padding:10vw 12vw
+}
+
+.right{
+    width :50%;
+    height:100%;
+    background-color:rgb(247, 235, 235);
+}
+
+
+.left h2 {
+    color :rgb(23, 20, 16);
+    margin-bottom:1vw;
+    font-size: 3vw;
+    
+}
+
+.left p{
+    margin-bottom:1vw;
+}
+
+.btn{
+    padding:1vw;
+    font-weight: 500;
+    border-radius:5vw;
+    box-shadow: 2px 2px 2px #554e4e ;
+    border:none;
+    background-color:#120c0c;
+    color:azure;
+    margin-top: 2vw;
+}
+
+.btn:hover{
+    font-size: 0.95rem;
+    cursor:pointer;
+    background-color:#120c0c;
+    border:none;
+    color:azure;
+    box-shadow:none;
+}
+
+.right img{
+    width:100%;
+    height:100%;
+}
+
+span{
+    font-family: 'Times New Roman', Times, serif;
+    font-family: "Dawning of a New Day", cursive;
+    font-weight: 900;
+    font-style:normal;
+    font-size:3vw;
+    padding:0 0.5vw;
+    color:azure;
+}
+/* 
+@media(max-width:800px){
+    
+    .left h2{
+        font-size: 5vw;
+        margin-top: 10vw;
+    }
+
+    span{
+        font-size: 6vw;
+    }
+    .btn{
+         margin-top:40vw;
+         background-color: antiquewhite;
+         color:black;
+         font-weight: 600;
+    }
    
+        
+} */
+
+@media(max-width:400px){
+    .left{
+     width:100% ;
+     height:60%;  
+    }
+    .right{
+        width: 100%;
+        height:40%;
+    }
+    
+    .left h2{
+        font-size: 9vw;
+        margin-top:10vw ;
+        margin-bottom: 2vw;
+        line-height: 7vw;
+        line-height: 11vw;
+    }
+
+    span{
+        font-size: 10vw;
+    }
+    .btn{
+         margin-top:2vww;
+         background-color: antiquewhite;
+         color:black;
+         font-weight: 600;
+    }
+    .content{
+        height:calc(100% - 60px);
+        display: flex;
+        flex-direction:column;
+        
+    }
+    .left p{
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    
+
+    
+  
+
+}
+
+@media (min-width: 400px) and (max-width: 800px) {  
+    /* Your styles here */  
+}
+.line{
+    width: 33px;
+    background-color: black;
+    height: 4px;
+    margin: 5px 3px;
+}
+.hamburger{
+    display: none;
+position: absolute;
+cursor: pointer;
+right: 5px;
+top:15px;
+}
+/* ... existing CSS ... */  
+
+@media(max-width:600px){  
+    .nav h2 {  
+        display: none; /* Hide h2 elements by default */  
+    }  
+    .nav-part2.open h2 {  
+        display: block; /* Show h2 elements when "open" class is added */  
+    }  
+    
+    .nav i {  
+        display: block;  
+        font-weight: 600;  
+        font-size: 6vw;  
+    }  
+}  
+
+.hamburger {  
+    display: none;  
+    position: absolute;  
+    cursor: pointer;  
+    right: 5px;  
+    top: 15px;  
+}  
+
+@media(max-width:600px){  
+    .hamburger {  
+        display: block;  
+        
+    }  
+   .h2{
+    font-size: 1rem; /* Adjust font size as needed */  
+    background: linear-gradient(to right, black, grey);  
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;  
+    margin-top: 2rem;
+   }
+    
+}
